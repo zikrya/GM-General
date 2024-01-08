@@ -7,11 +7,10 @@ const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {
-        // Update the NavBar style based on the current page
-        if (location.pathname === '/contact-us' || location.pathname === '/about-us') { // Replace '/your-page-path' with your specific page path
-            setNavStyle("bg-transparent text-gray-800"); // Black font color for specific page
+        if (location.pathname === '/contact-us' || location.pathname === '/about-us') {
+            setNavStyle("bg-transparent text-gray-800");
         } else {
-            setNavStyle("bg-transparent text-white"); // Default style for other pages
+            setNavStyle("bg-transparent text-white");
         }
     }, [location]);
 
