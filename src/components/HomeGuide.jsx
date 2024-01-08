@@ -18,8 +18,12 @@ const features = [
     },
     {
       title: 'Plumbing',
-      image: 'plumbing.jpeg',
+      image: '/plumbing.jpeg',
     },
+    {
+        title: 'Culinary Architecture',
+        image: '/kitchen.jpg',
+      },
   ]
 
 const HomeGuide = () => {
